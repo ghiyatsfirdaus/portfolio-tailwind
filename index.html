@@ -1,0 +1,189 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | Ghiyats</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-gray-950 text-white">
+
+    <!-- NAVBAR -->
+    <nav class="flex justify-between items-center px-8 py-5 border-b border-gray-800">
+        <h1 class="text-2xl font-bold">
+            GHIYATS<span class="text-blue-500">.</span>
+        </h1>
+
+        <div class="hidden md:flex gap-8 text-gray-300">
+            <a href="#home" class="hover:text-blue-400">Home</a>
+            <a href="#about" class="hover:text-blue-400">About</a>
+            <a href="#skills" class="hover:text-blue-400">Skills</a>
+            <a href="#project" class="hover:text-blue-400">Projects</a>
+        </div>
+
+        <a href="#contact"
+           class="bg-blue-600 px-5 py-2 rounded-lg hover:bg-blue-700">
+            Contact
+        </a>
+    </nav>
+
+
+    <!-- HERO SECTION -->
+    <section id="home"
+        class="min-h-[85vh] flex flex-col justify-center items-center text-center px-6">
+
+        <p class="text-blue-400 font-semibold mb-4">
+            WELCOME TO MY PORTFOLIO
+        </p>
+
+        <h1 class="text-5xl md:text-7xl font-bold mb-6">
+            Hi, I'm <span class="text-blue-500">Ghiyats</span>
+        </h1>
+
+        <p class="text-gray-400 text-lg max-w-xl mb-8">
+            Saya seorang pelajar yang tertarik dengan teknologi,
+            desain, dan pengembangan website.
+        </p>
+
+        <div class="flex gap-4">
+            <a href="#project"
+               class="bg-blue-600 px-6 py-3 rounded-lg hover:bg-blue-700">
+                My Projects
+            </a>
+
+            <a href="#about"
+               class="border border-gray-600 px-6 py-3 rounded-lg hover:bg-gray-800">
+                About Me
+            </a>
+        </div>
+    </section>
+
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="py-20 px-8 bg-gray-900">
+
+        <div class="max-w-4xl mx-auto text-center">
+
+            <h2 class="text-3xl font-bold mb-6">
+                About <span class="text-blue-500">Me</span>
+            </h2>
+
+            <p class="text-gray-400 leading-relaxed">
+                Halo , Nama saya Ghiyats Firdaus.
+                Saya merupakan siswa SMK Telkom Bandung
+                yang mememiliki hobi di bidang olahraga dan melimiliki ketertarikan di bidang teknologi
+
+            </p>
+
+        </div>
+    </section>
+
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="py-20 px-8">
+
+        <h2 class="text-3xl font-bold text-center mb-12">
+            My <span class="text-blue-500">Skills</span>
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+
+            <div class="bg-gray-900 p-8 rounded-xl border border-gray-800 hover:border-blue-500">
+                <h3 class="text-xl font-bold mb-3">HTML</h3>
+                <p class="text-gray-400">
+                    Membuat struktur dan konten website.
+                </p>
+            </div>
+
+            <div class="bg-gray-900 p-8 rounded-xl border border-gray-800 hover:border-blue-500">
+                <h3 class="text-xl font-bold mb-3">CSS</h3>
+                <p class="text-gray-400">
+                    Mengatur tampilan dan desain website.
+                </p>
+            </div>
+
+            <div class="bg-gray-900 p-8 rounded-xl border border-gray-800 hover:border-blue-500">
+                <h3 class="text-xl font-bold mb-3">Tailwind CSS</h3>
+                <p class="text-gray-400">
+                    Membuat desain website dengan utility class.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- PROJECT SECTION -->
+    <section id="project" class="py-20 px-8 bg-gray-900">
+
+        <h2 class="text-3xl font-bold text-center mb-12">
+            My <span class="text-blue-500">Projects</span>
+        </h2>
+
+        <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+
+            <div class="bg-gray-950 p-6 rounded-xl border border-gray-800">
+                <div class="bg-blue-900 h-40 rounded-lg flex items-center justify-center">
+                    <span class="text-3xl font-bold">📚</span>
+                </div>
+
+                <h3 class="text-xl font-bold mt-5">
+                    Digital Library
+                </h3>
+
+                <p class="text-gray-400 mt-2">
+                    Website perpustakaan digital untuk
+                    mengelola dan membaca buku secara online.
+                </p>
+            </div>
+
+            <div class="bg-gray-950 p-6 rounded-xl border border-gray-800">
+                <div class="bg-indigo-900 h-40 rounded-lg flex items-center justify-center">
+                    <span class="text-3xl font-bold">💻</span>
+                </div>
+
+                <h3 class="text-xl font-bold mt-5">
+                    Personal Portfolio
+                </h3>
+
+                <p class="text-gray-400 mt-2">
+                    Website pribadi untuk memperkenalkan
+                    diri dan menampilkan hasil karya.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="py-20 px-8 text-center">
+
+        <h2 class="text-3xl font-bold mb-5">
+            Let's Work <span class="text-blue-500">Together</span>
+        </h2>
+
+        <p class="text-gray-400 mb-8">
+            Terima kasih sudah mengunjungi portfolio saya!
+        </p>
+
+        <a href="mailto:emailkamu@example.com"
+           class="bg-blue-600 px-8 py-3 rounded-lg hover:bg-blue-700">
+            Contact Me
+        </a>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="border-t border-gray-800 py-6 text-center text-gray-500">
+        <p>© 2026 Ghiyats Firdaus. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
+```
